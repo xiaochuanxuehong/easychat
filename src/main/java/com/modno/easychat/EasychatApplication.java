@@ -3,7 +3,7 @@ package com.modno.easychat;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.modno.easychat"})
 public class EasychatApplication {
 
     public static void main(String[] args) {
